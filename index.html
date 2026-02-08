@@ -3,31 +3,27 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>WE Work Edit — There’s a better way to work.</title>
+  <title>Work Edit — There’s a better way to work.</title>
   <meta name="description" content="Practical Work Edits for leaders, teams, and organizations—small changes, clear impact." />
   <meta name="theme-color" content="#111111" />
 
   <!-- Open Graph -->
-  <meta property="og:title" content="WE Work Edit — There’s a better way to work." />
+  <meta property="og:title" content="Work Edit — There’s a better way to work." />
   <meta property="og:description" content="Edit how work happens—before adding more." />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="assets/og.jpg" />
 
   <link rel="stylesheet" href="styles.css" />
-
-  <!-- Favicons -->
-  <link rel="icon" href="favicon.ico" sizes="any">
-  <link rel="icon" type="image/png" sizes="32x32" href="weworkedit-icon-512.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="weworkedit-icon-512.png">
-
 </head>
 
 <body>
   <!-- Header -->
   <header class="topbar" id="top">
-<div class="container topbar__inner">
-      <a class="brand" href="#top" aria-label="WE Work Edit">
-        <img src="assets/logo.png" alt="WE Work Edit" class="brand__logo" />
+    <div class="banner" aria-hidden="true"></div>
+
+    <div class="container topbar__inner">
+      <a class="brand" href="#top" aria-label="Work Edit">
+        <img src="assets/logo.png" alt="Work Edit" class="brand__logo" />
       </a>
 
       <div class="topbar__right">
@@ -165,7 +161,16 @@
           <p class="muted">Too many people involved. Too few empowered. Decisions get escalated, revisited, or diluted instead of owned.</p>
           <p class="case__edit"><strong>Work Edit:</strong> We redesign decision-making so accountability sits where the knowledge is.</p>
         </article>
-<article class="case">
+
+        <article class="case">
+          <div class="case__icon" aria-hidden="true">🔄</div>
+          <h3>Self-organization that exists… only on paper</h3>
+          <blockquote>“We say we trust our teams, but we still control everything.”</blockquote>
+          <p class="muted">Roles unclear. Boundaries fuzzy. Autonomy expected—but not enabled. Teams get stuck between freedom and control.</p>
+          <p class="case__edit"><strong>Work Edit:</strong> We make self-organization practical, safe, and realistic.</p>
+        </article>
+
+        <article class="case">
           <div class="case__icon" aria-hidden="true">🌱</div>
           <h3>When you are the system that needs an edit</h3>
           <blockquote>“I know something has to change—I’m just not sure what or how.”</blockquote>
@@ -227,7 +232,7 @@
           They weren’t the problem—the way work was designed was.
         </p>
         <p class="muted">
-          That realization is what led me to create WE Work Edit. Today, I help people overwhelmed by too much work,
+          That realization is what led me to create Work Edit. Today, I help people overwhelmed by too much work,
           too many meetings, and too many priorities find clarity again—not by adding more initiatives, but by editing how work actually happens.
         </p>
         <p class="muted">
@@ -265,16 +270,12 @@
           </div>
 
           <div class="contact__quick">
-            <a class="btn btn--ghost" href="mailto:ana@weworkeddit.com">Email: ana@weworkeddit.com</a>
+            <a class="btn btn--ghost" href="mailto:info@weworkedit.com">Email: info@weworkedit.com</a>
             <a class="btn btn--primary" href="#" aria-disabled="true" title="Add your Calendly / Microsoft Bookings link here">
               Book a call
             </a>
           </div>
-
-          <p class="tiny muted">
-            Tip: replace the “Book a call” link with Calendly or Microsoft Bookings when ready.
-          </p>
-        </div>
+</div>
 
         <form class="form" onsubmit="return handleSubmit(event)">
           <label>
@@ -302,13 +303,12 @@
   <footer class="footer">
     <div class="container footer__inner">
       <div>
-        <div class="footer__brand">WE Work Edit</div>
-        <div class="tiny muted">© <span id="year"></span> WE Work Edit. All rights reserved.</div>
+        <div class="footer__brand">Work Edit</div>
+        <div class="tiny muted">© <span id="year"></span> Work Edit. All rights reserved.</div>
       </div>
-      <div class="footer__mark"><img src="assets/logo.png" alt="WE Work Edit" class="footer__logo" /></div>
       <div class="footer__links">
         <a href="#top">Top</a>
-        <a href="mailto:ana@weworkeddit.com">Email</a>
+        <a href="mailto:info@weworkedit.com">Email</a>
       </div>
     </div>
   </footer>
