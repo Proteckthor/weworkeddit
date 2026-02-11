@@ -389,3 +389,15 @@ input:focus,textarea:focus{outline: 2px solid rgba(0,0,0,.18); border-color: rgb
   filter: saturate(1.05);
 }
 
+
+
+/* --- Avatar crop tweak (avoid cutting Ana's head) --- */
+.avatar img{
+  object-fit: cover;
+  object-position: 50% 22%; /* move focus slightly up to keep head inside circle */
+}
+.about__photo{
+  object-fit: cover;
+  object-position: 50% 18%;
+}
+
