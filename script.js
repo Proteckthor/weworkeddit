@@ -29,7 +29,7 @@ function handleSubmit(e){
   const email = form.email.value.trim();
   const message = form.message.value.trim();
 
-  const to = "ana@weworkeddit.com";
+  const to = "ana@weworkedit.com";
   const subject = encodeURIComponent(`[WE Work Edit] New message from ${name}`);
   const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}\n`);
   window.location.href = `mailto:${to}?subject=${subject}&body=${body}`;
